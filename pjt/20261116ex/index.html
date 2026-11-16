@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!--https://hoazzinews.tistory.com/96-->
+
+    <!-- 내부(internal) 스타일: <style> 태그로 head안에 css를 작성 -->
+        <!-- 간혹 씀 - 짧게 필요할 때 -->    
+    <style>
+        div 
+        {
+            font-size: 1.5em;
+            color: blue;
+        }
+    </style>
+
+
+    <!-- 외부(external) 스타일: .css 파일을 따로 만들어 연결 -->
+        <!-- 이것만 씀 - html과 확실히 분리되어 있기 때문-->
+    <link rel="stylesheet" href="index.css" type="text/css">
+        <!-- type은 생략가능 -->
+
+</head>
+<body>
+    
+    <!-- 인라인(inline) 스타일: 태그에 직접 css를 작성 -->
+        <!-- 절대 쓰지 않음 - 지저분함 -->
+     <p style="color: red; font-weight: bold;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis itaque illo consequatur atque animi facilis labore a nesciunt. In blanditiis molestias architecto ducimus excepturi officia repellendus provident quaerat vero quae!
+     </p>
+
+     <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione eligendi a! Atque, veniam commodi? Itaque illum nulla expedita doloribus saepe! Possimus distinctio beatae error exercitationem nisi commodi expedita. Ex.
+     </div>
+
+     <h3>Today class is CSS.</h3>
+
+</body>
+</html>
