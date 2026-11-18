@@ -12,7 +12,6 @@
 }
 
 #wrap > ul > li.list > ul {
-    width: 270px;
     padding: 10px;
     border: 1px solid #dadada;
     border-radius: 5px;
@@ -32,11 +31,11 @@
     width: 900px;
 }
 
-#wrap > ul > li.letter .wrap {
+#wrap > ul > li.letter div.wrap {
     width: 700px;
     border: 1px solid #dadada;
     border-radius: 10px;
-    margin: 30px auto;
+    margin: 0px auto;
     padding: 50px 40px;
     box-shadow: 3px 3px 3px #dadada;
 } 
@@ -57,7 +56,10 @@
 #wrap > ul > li.letter div.body {
     width: 90%;
     margin: 20px auto;
-    line-height: 1.8;
+}
+
+#wrap > ul > li.letter div.body p {
+    margin: 15px 0;
 }
 
 #wrap > ul > li.letter div.from {
