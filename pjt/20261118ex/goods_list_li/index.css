@@ -1,0 +1,26 @@
+#wrap {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#wrap li > div {
+    padding: 12px 7px;
+}
+
+#wrap li > div > div img {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+#wrap li > div > div p {
+    width: 110px;
+    text-align: center;
+    font-size: 0.9em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#wrap li > div > div p:nth-child(1) {
+    font-weight: bold;
+}
