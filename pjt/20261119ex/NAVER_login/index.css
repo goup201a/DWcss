@@ -44,11 +44,6 @@
 #wrap div.login_form > ul > li:nth-child(1) {
     border-radius: 5px 0 0 5px;
 }
-
-#wrap div.login_form > ul > li:nth-child(1) {
-    border-radius: 0;
-}
-
 #wrap div.login_form > ul > li:nth-child(3) {
     border-radius: 0 5px 5px 0;
 }

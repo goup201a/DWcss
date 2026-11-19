@@ -38,7 +38,6 @@
     box-sizing: border-box;
     padding: 10px 15px;
     cursor: pointer;
-    color: black;
 }
 
 #wrap > div.login > ul > li:hover {
@@ -53,21 +52,24 @@
 }
 
 #wrap > div.login > div input {
-    width: 450px;
+    width: 410px;
     border: 1px solid #dadada;
-    box-sizing: border-box;
     padding: 15px 17px;
     font-size: 1.1em;
     outline: none;
 }
 
-#wrap > div.login > div input:nth-child(1) {
+#wrap > div.login > div > input[name="memID"] {
     margin-top: 16px;
     border-radius: 5px 5px 0 0;
 }
 
-#wrap > div.login > div > input[type="radio"] {
+#wrap > div.login > div:nth-child(3) {
     width: 450px;
     margin: 15px auto;
-    text-align: left; 
+    text-align: left;
+}
+
+#wrap > div.login > div:nth-child(3) input {
+    width: auto;
 }
