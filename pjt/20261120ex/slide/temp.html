@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        .box_red {
+            width: 200px; height: 200px;
+            background-color: red;
+            position: static;
+        }
+
+        .box_green {
+            width: 200px; height: 200px;
+            background-color: rgb(0, 255, 0);
+            position: relative;
+            /* 상대적 위치 */
+            top: 50px;
+            left: 100px;
+        }
+
+         .box_blue {
+            width: 200px; height: 200px;
+            background-color: rgb(0, 0, 255);
+            position: absolute;
+            top:50px;
+            left: 100px;
+        }
+
+         .box_black {
+            width: 200px; height: 200px;
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+            top: 200px;
+            left: 500px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="box_red">
+        RED
+    </div>
+
+    <div class="box_green">
+        GREEN
+    </div>
+
+     <div class="box_blue">
+        BLUE
+    </div>
+
+    <div class="box_black">
+        BLACK
+    </div>
+
+</body>
+</html>
